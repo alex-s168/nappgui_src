@@ -13,7 +13,6 @@ function(nap_generate_tools)
     set(TOOLS_BUILD_DIR "${CMAKE_BINARY_DIR}/tools/build")
 
     set(NAPPGUI_NRC "${TOOLS_BUILD_DIR}/Debug/bin/nrc${CMAKE_EXECUTABLE_SUFFIX}")
-    file(TO_NATIVE_PATH \"${NAPPGUI_NRC}\" NAPPGUI_NRC)
 
     message(STATUS "- Generating NAppGUI Tools...")
 
